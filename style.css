@@ -100,6 +100,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: 96px;
 }
 
 .info-item {
@@ -119,4 +120,25 @@ a {
     border: solid 4px #3882F6;
     border-radius: 16px;
     margin-bottom: 8px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 128px 280px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 24px;
 }
