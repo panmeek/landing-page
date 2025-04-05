@@ -169,3 +169,10 @@ a {
     border: solid 2px #E5E7EB;
     padding: 4px 24px;
 }
+
+.footer {
+    color: #E5E7EB;
+    background-color: #1F2937;
+    text-align: center;
+    padding: 36px 0;
+}
