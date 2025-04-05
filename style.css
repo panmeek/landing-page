@@ -79,3 +79,44 @@ a {
     background-color: #3882F6;
     cursor: pointer;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 42px 0;
+}
+
+.info-list {
+    display: flex;
+    gap: 56px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    max-width: 164px;
+    text-align: center;
+    color: #525356;
+}
+
+.info-image {
+    height: 164px;
+    width: 164px;
+    border: solid 4px #3882F6;
+    border-radius: 16px;
+    margin-bottom: 8px;
+}
