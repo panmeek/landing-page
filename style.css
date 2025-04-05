@@ -142,3 +142,31 @@ a {
     font-weight: 900;
     font-size: 24px;
 }
+
+.cta {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 128px;
+    margin: 96px;
+    border-radius: 8px;
+}
+
+.cta-main {
+    color: #E5E7EB;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.cta-sub {
+    color: #E5E7EB;
+    font-weight: 300;
+    font-size: 16px;
+    padding-right: 128px;
+}
+
+.cta .sign-up {
+    border: solid 2px #E5E7EB;
+    padding: 4px 24px;
+}
